@@ -1,3 +1,51 @@
+\# App setup and build Process details with IDE and Simulator settings
+⦁	Prerequisites
+⦁	Installation of Android Studio Flamingo
+⦁	Importing Project into Android Studio
+⦁	Resolving Dependencies
+⦁	Configuring Android Emulator
+⦁	Running the Application
+⦁	Troubleshooting (Optional)
+1. Prerequisites
+
+⦁	Operating System: Windows 10 or above
+⦁	Java Development Kit (JDK) 8 or above installed on your system.
+⦁	Sufficient system memory, preferably at least 8 GB RAM.
+⦁	Adequate storage space for Android Studio installation, project files, and emulator data.
+2. Installation of Android Studio Flamingo
+
+⦁	Go to the ⦁	official Android Studio page and download the latest version of Android Studio (Flamingo).
+⦁	Run the installer and follow the installation wizard.
+⦁	After installation, launch Android Studio.
+3. Importing Project into Android Studio
+
+⦁	Open Android Studio.
+⦁	Select “Open an Existing Project”.
+⦁	Navigate to the directory where the project files are located.
+⦁	Select the folder and click “OK”. The project will now be imported into Android Studio.
+4. Resolving Dependencies
+
+⦁	Once the project is open, Android Studio may prompt you to download additional dependencies.
+⦁	In the bottom-right corner, if there's a notification regarding Gradle sync, click on "Sync Now".
+⦁	If additional components are needed, a prompt will appear. Accept the download and installation of these components.
+5. Configuring Android Emulator
+
+⦁	In Android Studio, click on "AVD Manager" (AVD stands for Android Virtual Device) in the top-right corner.
+⦁	Click on “Create Virtual Device”.
+⦁	Choose the hardware profile you want for the emulator and click “Next”.
+⦁	Select a system image. You might need to download a system image if none are available. Click “Next” after selection.
+⦁	Configure the emulator settings as required and click “Finish”.
+6. Running the Application
+
+⦁	Make sure that the emulator you created is selected in the target device drop-down menu near the top-right corner of Android Studio.
+⦁	Click the green triangle (Run) button located near the top-right corner.
+⦁	The emulator will start, and after it initializes, your application will be installed and run on it.
+7. Troubleshooting (Optional)
+Include this section to provide common solutions to problems that might arise during the setup and running processConclusion
+This document provided a step-by-step guide for setting up and running an Android application using Android Studio Flamingo on Windows. Following these instructions should ensure that the application is successfully deployed on the Android Emulator
+
+
+\#
 
 \# Simple Dialer
 <img alt="Logo" src="graphics/icon.png" width="120" />
