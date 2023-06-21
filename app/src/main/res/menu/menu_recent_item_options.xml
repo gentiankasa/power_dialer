@@ -42,4 +42,8 @@
         android:id="@+id/cab_remove"
         android:icon="@drawable/ic_delete_vector"
         android:title="@string/delete" />
+    <item
+        android:id="@+id/track_to_d365"
+        android:icon="@drawable/ic_delete_vector"
+        android:title="Track to D365" />
 </menu>
